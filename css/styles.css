@@ -1,5 +1,31 @@
 body {
+    border: 1px solid #000;
+    width: 1440px;
+    height: 3300px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     background-color: #fff;
     font-family: "Roboto", "Raleway" , sans-serif;
-    
+    color: #000;
+    line-height: 1,5;
 }
+
+ a {
+     text-decoration: none;
+ }
+    
+
+
+
+
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
