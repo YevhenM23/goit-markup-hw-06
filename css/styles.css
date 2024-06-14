@@ -2,8 +2,8 @@ body {
     width: 1440px;
     height: 3300px;
     background-color: #fff;
-    font-family: "Roboto", "Raleway" , sans-serif;
-    color: #000;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     line-height: 1,5;
 }
 
@@ -11,113 +11,66 @@ body {
     text-decoration: none;
  }
 
- .header-container {
-    width: 1440px;
+ p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+ }
+
+ header {
     height: 72px;
     background: #fff;
-    
-}
+ }
 
-
-.logo-web {
+/* Head Information */
+ .logo-web {
    font-family: Raleway;
    font-size: 18px;
    font-weight: 700;
-   line-height: 21px;
-   letter-spacing: 0.03em;
-   text-align: left;
    color: #4D5AE5;
-   width: 44px;
-   height: 21px;
-   gap: 0px;
-   opacity: 0px;
-   
+   text-transform: uppercase;
 }
 
 .logo-studio {
-    width: 71px;
-    height: 21px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    text-align: left;
     color: #2E2F42;
+    text-transform: uppercase;
 }
 
 .studio-header {
-    width: 88px;
-    height: 60px;
     font-weight: 500;.
     font-size: 16px;
-    line-height: 150%;
     color: #2e2f42;
     
 }
 
 
 .studio-header:hover {
-    width: 67px;
-    height: 4px;
-    top: 44px;
-    gap: 0px;
-    border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
     color: #404BBF;
 }
 
 
 .portfolio-header {
-    width: 66px;
-    height: 24px;
-    gap: 0px;
-    opacity: 0px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-         font-weight: 500;
-            font-size: 16px;
-            line-height: 150%;
-            color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2e2f42;
 }
 
 .portfolio-header:hover {
-    width: 67px;
-    height: 4px;
-    top: 44px;
-    gap: 0px;
-    border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
     color: #404BBF;
 }
 
 
 .contacts-header {
-    width: 67px;
-        height: 24px;
-        gap: 0px;
-        opacity: 0px;
-        font-family: Roboto;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 24px;
-            letter-spacing: 0.02em;
-            text-align: left;
-            color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2F42;
 }
 
 .contacts-header:hover {
-    width: 67px;
-    height: 4px;
-    top: 44px;
-    gap: 0px;
-    border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
     color: #404BBF;
 }
 
@@ -130,48 +83,75 @@ body {
     color: #434455;
 }
 
+/* Title and Button */
 .button-container {
-    width: 1440px;
-        height: 600px;
-        top: 72px;
-        gap: 0px;
-        opacity: 0px;
-        background: #2E2F42;
+    height: 600px;
+    background: #2E2F42;
 }
 
-.title {
-    width: 496px;
-        height: 120px;
-        top: 260px;
-        left: 472px;
-        gap: 0px;
-        opacity: 0px;
-        color: #FFFFFF;
-    font-family: Roboto;
-            font-size: 56px;
-            font-weight: 700;
-            line-height: 60px;
-            letter-spacing: 0.02em;
-            text-align: center;
+h1 {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
 }
 
-.order-but {
+button {
     border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-        background: #4d5ae5;
+    background: #4d5ae5;
 }
 
 .but-text {
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.04em;
     color: #fff;
 }
-    
+
+/*  Description Section2 */
+.description-section {
+    height: 344px;
+        
+}
+
+h3 {
+   color: #2E2F42;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+/* Team Photo Section3 */
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #2E2F42;
+} 
+
+.team-photo-section {
+    height: 732px;
+}
+
+.portfolio-section {
+    width: 1128px;
+    height: 1000px;
+}
+
+/* Footer container */
+footer {
+    height: 312px;
+    background: #2E2F42;
+}
+
+
+
+
+
+.footer-text {
+    color: #F4F4FD;
+}
+
+
+
 
 
 
