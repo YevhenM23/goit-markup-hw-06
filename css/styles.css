@@ -1,10 +1,22 @@
 body {
-    width: 1440px;
-    height: 3300px;
     background-color: #fff;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
     color: #434455;
     line-height: 1,5;
+    width: 1440px;
+    height: auto;
+}
+
+.container {
+    width: 1440px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 156px;
 }
 
  a {
@@ -18,9 +30,9 @@ body {
     color: #434455;
  }
 
- header {
-    height: 72px;
+ .header {
     background: #fff;
+    padding: 24px 0;
  }
 
 /* Head Information */
@@ -30,6 +42,11 @@ body {
    font-weight: 700;
    color: #4D5AE5;
    text-transform: uppercase;
+   width: 115px;
+   height: 24px;
+   padding-left: 156px;
+   padding-top: 24px;
+   padding-bottom: 24px;
 }
 
 .logo-studio {
@@ -40,53 +57,40 @@ body {
     text-transform: uppercase;
 }
 
-.studio-header {
-    font-weight: 500;.
-    font-size: 16px;
-    color: #2e2f42;
-    
+.menu {
+    display: flex;
+    gap: 40px;
+    padding-left: 347px;
 }
 
-
-.studio-header:hover {
-    color: #404BBF;
-}
-
-
-.portfolio-header {
-    font-weight: 500;
-    font-size: 16px;
-    color: #2e2f42;
-}
-
-.portfolio-header:hover {
-    color: #404BBF;
-}
-
-
-.contacts-header {
+.menu-link {
     font-size: 16px;
     font-weight: 500;
     color: #2E2F42;
 }
 
-.contacts-header:hover {
+.menu-link:hover {
     color: #404BBF;
 }
 
-.mail-info {
-    color: #434455;
-
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
-.tel-info {
+.contacts-info {
+    font-style: 16px;
+    font-weight: 400;
     color: #434455;
 }
+
+
 
 /* Title and Button */
 .button-container {
     height: 600px;
     background: #2E2F42;
+    align-items: center;
 }
 
 h1 {
@@ -94,23 +98,29 @@ h1 {
     font-size: 56px;
     font-weight: 700;
     text-align: center;
+    padding: 188px 472px 292px 472px;
 }
 
-button {
+.btn {
     border-radius: 4px;
-    background: #4d5ae5;
-}
-
-.but-text {
-    font-weight: 500;
+    background-color: #4d5ae5;
     font-size: 16px;
-    color: #fff;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
 }
 
 /*  Description Section2 */
 .description-section {
     height: 344px;
-        
+}
+
+.description-list {
+    display: flex;
+    width: 1128px;
+    height: 104px;
+    text-align: center;
 }
 
 h3 {
@@ -129,11 +139,14 @@ h2 {
 
 .team-photo-section {
     height: 732px;
+    background-color: #F4F4FD;
 }
 
+/* Section 4 Portfolio */
 .portfolio-section {
     width: 1128px;
     height: 1000px;
+    background-color: #E7E9FC;
 }
 
 /* Footer container */
@@ -142,14 +155,31 @@ footer {
     background: #2E2F42;
 }
 
+.logo-web {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    width: 115px;
+    height: 24px;
+    padding-left: 156px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
-
+.logo-studio {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E2F42;
+    text-transform: uppercase;
+}
 
 
 .footer-text {
     color: #F4F4FD;
 }
-
 
 
 
