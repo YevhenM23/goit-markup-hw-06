@@ -1,10 +1,10 @@
 body {
-    background-color: #fff;
     font-family: "Roboto", "Raleway", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
     line-height: 1,5;
+    background-color: #fff;
 }
 
 a {
@@ -115,23 +115,56 @@ a {
 }
 
 /* Team Photo Section2 */
-h2 {
+.team-photo-title {
     font-size: 36px;
     font-weight: 700;
     color: #2E2F42;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 } 
 
-.team-photo-section {
-    background-color: #F4F4FD;
+.name {
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.proffesion {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Section3 Portfolio */
-.portfolio-section {
-    background-color: #E7E9FC;
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
+
+.portfolio-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 
 /* Footer Info */
 footer {
@@ -156,9 +189,10 @@ footer {
     text-transform: uppercase;
 }
 
-
 .footer-text {
     color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 
