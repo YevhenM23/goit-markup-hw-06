@@ -68,7 +68,6 @@ a {
 /* Title and Button  */
 .button-container {
     background: #2E2F42;
-    align-items: center;
 }
 
 .title {
@@ -107,7 +106,7 @@ a {
 }
 
 .ph-text {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #434455;
