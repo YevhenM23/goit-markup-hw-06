@@ -5,41 +5,19 @@ body {
     font-size: 16px;
     color: #434455;
     line-height: 1,5;
-    width: 1440px;
-    height: auto;
 }
 
 a {
     text-decoration: none;
 }
 
-/* Head Information 
-.container {
-    width: 1440px;
-    height: 72px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 156px;
-}
 
-.header {
-    background: #fff;
-    padding: 24px 0;
- }
-*/
 .logo-web {
    font-family: "Raleway", sans-serif;
    font-size: 18px;
    font-weight: 700;
    color: #4D5AE5;
    text-transform: uppercase;
-   width: 115px;
-   height: 24px;
-   padding-left: 156px;
-   padding-top: 24px;
-   padding-bottom: 24px;
    line-height: 1.17;
    letter-spacing: 0.03em;
 }
@@ -51,13 +29,7 @@ a {
     color: #2E2F42;
     text-transform: uppercase;
 }
-/*  
-.menu {
-    display: flex;
-    gap: 40px;
-    padding-left: 347px;
-}
- */
+
 .menu-link {
     font-size: 16px;
     font-weight: 500;
@@ -75,12 +47,6 @@ a {
     font-style: normal;
 
 }
-/*
-.contacts-list {
-    display: flex;
-    gap: 40px;
-*/
-
 
 .contacts-info {
     font-style: 16px;
@@ -101,7 +67,6 @@ a {
 
 /* Title and Button  */
 .button-container {
-    height: 600px;
     background: #2E2F42;
     align-items: center;
 }
@@ -110,21 +75,16 @@ a {
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
-    text-align: center;
-    padding: 188px 472px 292px 472px;
     line-height: 1.07;
     letter-spacing: 0.02em
 }
 
 .btn {
     font-family: "Roboto", sans-serif;
-    border-radius: 4px;
     background-color: #4d5ae5;
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
     cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -159,7 +119,6 @@ a {
 h2 {
     font-size: 36px;
     font-weight: 700;
-    text-align: center;
     color: #2E2F42;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -167,20 +126,16 @@ h2 {
 } 
 
 .team-photo-section {
-    height: 732px;
     background-color: #F4F4FD;
 }
 
 /* Section3 Portfolio */
 .portfolio-section {
-    width: 1128px;
-    height: 1000px;
     background-color: #E7E9FC;
 }
 
 /* Footer Info */
 footer {
-    height: 312px;
     background: #2E2F42;
 }
 
@@ -190,11 +145,6 @@ footer {
     font-weight: 700;
     color: #4D5AE5;
     text-transform: uppercase;
-    width: 115px;
-    height: 24px;
-    padding-left: 156px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     letter-spacing: 0.03em;
     line-height: 1.17;
 }
