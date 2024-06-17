@@ -65,7 +65,7 @@ a {
 
 
 
-/* Title and Button  */
+/* Title and Button Section1 */
 .button-container {
     background: #2E2F42;
 }
@@ -75,7 +75,8 @@ a {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .btn {
@@ -96,13 +97,21 @@ a {
     background-color: #404BBF
 }
 
-/*  Description Section1 */
+/*  Description Section2 */
 .title-description {
    color: #2E2F42;
    font-size: 20px;
    font-weight: 500;
    line-height: 1.2;
    letter-spacing: 0.02em;
+}
+
+.description-list-title {
+    
+}
+
+.description-list {
+    
 }
 
 .ph-text {
@@ -114,19 +123,12 @@ a {
     line-height: 1.5;
 }
 
-/* Team Photo Section2 */
-.team-photo-title {
-    font-size: 36px;
-    font-weight: 700;
-    color: #2E2F42;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: center;
-} 
+/* Team Photo Section3 */
+.team-photo-section {
+   background-color: #F4F4FD;
+}
 
 .name {
-    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -138,9 +140,10 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
-/* Section3 Portfolio */
+/* Section4 Portfolio */
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
