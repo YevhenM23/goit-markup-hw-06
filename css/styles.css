@@ -107,7 +107,11 @@ a {
 }
 
 .description-list-title {
-    
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .description-list {
@@ -126,6 +130,19 @@ a {
 /* Team Photo Section3 */
 .team-photo-section {
    background-color: #F4F4FD;
+}
+
+.team-photo-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-photo-list {
+    background-color: #FFFFFF;
 }
 
 .name {
