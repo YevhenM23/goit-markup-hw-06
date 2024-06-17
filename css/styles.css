@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
@@ -187,7 +187,7 @@ a {
 
 
 /* Footer Info */
-footer {
+.footer {
     background: #2E2F42;
 }
 
