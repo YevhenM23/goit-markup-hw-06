@@ -24,7 +24,7 @@ p {
    margin: 0;
 }
 
-.img {
+img {
    display: block;
 }
 
@@ -107,6 +107,7 @@ p {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .contacts-info:hover {
@@ -149,7 +150,7 @@ p {
     cursor: pointer;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    min-width: 169px
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -164,6 +165,11 @@ p {
 }
 
 /*  Description Section2 */
+.section {
+    padding: 120px 0;
+}
+
+
 .title-description {
    color: #2E2F42;
    font-size: 20px;
@@ -203,6 +209,11 @@ p {
 }
 
 /* Team Photo Section3 */
+.section {
+    padding: 120px 0;
+}
+
+
 .bgs {
    background-color: #F4F4FD;
 }
@@ -252,6 +263,12 @@ p {
 }
 
 /* Section4 Portfolio */
+.section {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
+
+
 .portfolio-title {
     font-size: 36px;
     line-height: 1.11;
@@ -320,6 +337,7 @@ p {
     font-weight: 700;
     color: #f4f4fd;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 .footer-text {
