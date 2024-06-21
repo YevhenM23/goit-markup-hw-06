@@ -120,7 +120,7 @@ img {
 }
 
 /* Title and Button Section1 */
-.titbut {
+.tit-a-but {
     padding: 188px 0;
     background: #2E2F42;
 }
@@ -159,7 +159,7 @@ img {
 }
 
 /*  Description Section2 */
-.section2 {
+.des-sec {
     padding: 120px 0;
 }
 
@@ -212,7 +212,7 @@ img {
 }
 
 /* Team Photo Section3 */
-.section3 {
+.team-photo {
     padding: 120px 0;
     background-color: #F4F4FD;
 }
@@ -263,7 +263,7 @@ img {
 }
 
 /* Section4 Portfolio */
-.section4 {
+.portfolio {
     padding-top: 120px; 
     padding-bottom: 120px;
 }
