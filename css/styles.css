@@ -120,7 +120,7 @@ img {
 }
 
 /* Title and Button Section1 */
-.section1 {
+.container-one {
     padding: 188px 0;
     background: #2E2F42;
 }
@@ -339,7 +339,6 @@ img {
     font-weight: 700;
     color: #f4f4fd;
     text-transform: uppercase;
-    display: inline-block;
 }
 
 .footer-text {
