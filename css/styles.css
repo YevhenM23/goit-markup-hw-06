@@ -28,25 +28,23 @@ img {
    display: block;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    background-color: #fff;
+    padding: 24px 0;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px; 
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav {
     display: flex;
     align-items: center;
-}
-
-
-.header {
-    border-bottom: 1px solid #e7e9fc;
-    background-color: #fff;
-    padding: 24px 0;
 }
 
 
@@ -289,6 +287,12 @@ img {
     width: calc((100% - 72px) / 3);
 }
 
+.portfolio-container {
+    padding: 32px 226px 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 
 .portfolio-text {
     font-weight: 500;
@@ -304,13 +308,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-
-.portfolio-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
 }
 
 
