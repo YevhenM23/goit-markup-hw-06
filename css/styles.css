@@ -40,6 +40,7 @@ img {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav {
@@ -278,17 +279,19 @@ img {
 
 .portfolio-list {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-}
+}    
+   
+
 
 .portfolio-item {
     width: calc((100% - 72px) / 3);
 }
 
 .portfolio-container {
-    padding: 32px 226px 32px 16px;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
