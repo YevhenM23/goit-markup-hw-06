@@ -55,6 +55,7 @@ img {
 .menu {
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 
 .logo-web {
@@ -97,6 +98,7 @@ img {
 .contacts-list {
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 
 .contacts-info {
@@ -134,6 +136,8 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
+    margin: 0 auto;
+    padding-bottom: 48px;
 }
 
 .btn {
@@ -150,6 +154,7 @@ img {
     border: none;
     border-radius: 4px;
     display: block;
+    margin: 0 auto;
 }
 
 .btn:hover {
@@ -187,6 +192,7 @@ img {
 .description-list {
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .description-text {
@@ -237,6 +243,7 @@ img {
 .team-list {
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 .team-photo-list {
@@ -285,6 +292,7 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style-type: none;
 }    
    
 .portfolio-item {
@@ -321,7 +329,7 @@ img {
     padding: 100px 0;
 }
 
-.logo-web {
+.logo-web-f {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -345,6 +353,9 @@ img {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
+    margin: 0;
+    padding-top: 16px;
 }
 
 
