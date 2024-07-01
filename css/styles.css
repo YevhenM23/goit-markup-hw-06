@@ -1,6 +1,7 @@
 :root {
    --blue: #4d5ae5;
    --white: #f4f4fd;
+   --grey: #FFFFFF;
 }
 
 
@@ -324,7 +325,7 @@ img {
 .icons-punkt {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+   
 }
 
 .icons-item {
@@ -335,6 +336,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        ;
 }
 
 .icons-item:hover,
@@ -344,6 +347,7 @@ img {
 
 .social {
     background-color: var(--white);
+    fill: var(--white);
 }
 
 
@@ -434,7 +438,7 @@ img {
     background-color: #4d5ae5;
     width: 100%;
     height: 100%;
-    transform: translateY(0%);
+    transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -514,7 +518,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--white);
+    color: var(--grey);
     margin-bottom: 16px;   
 }
 
