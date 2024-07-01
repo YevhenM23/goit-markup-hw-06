@@ -246,6 +246,7 @@ img {
 }
 
 .description-icons {
+    fill: ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -306,18 +307,17 @@ img {
     
 }
 
-.icons {
-    width: 232px;
-    height: 40px;
-    gap: 24px;
-    text-align: center;
-    margin: 8px 16px 32px 16px;
-}
+
 
 .icons-list {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    width: 232px;
+    height: 40px;
+    gap: 24px;
+    text-align: center;
+    margin: 8px 16px 32px 16px;
 }
 
 .icons-punkt {
