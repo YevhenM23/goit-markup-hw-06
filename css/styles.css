@@ -106,6 +106,7 @@ img {
     position: relative;
     display: inline-block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
 }
 
 .menu-link:hover,
@@ -143,7 +144,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-info:hover {
@@ -311,7 +312,7 @@ img {
 
 .icons-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
     width: 232px;
     height: 40px;
@@ -323,16 +324,17 @@ img {
 .icons-punkt {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .icons-item {
     width: 100%;
     height: 100%;
-    background-color: var(#4d5ae5);
+    background-color: var(--blue);
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .icons-item:hover,
@@ -341,7 +343,7 @@ img {
 }
 
 .social {
-    background-color: var(#f4f4fd);
+    background-color: var(--white);
 }
 
 
@@ -432,7 +434,7 @@ img {
     background-color: #4d5ae5;
     width: 100%;
     height: 100%;
-    transform: translateY(100%);
+    transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -512,7 +514,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--#FFFFFF);
+    color: var(--white);
     margin-bottom: 16px;   
 }
 
