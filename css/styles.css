@@ -425,6 +425,9 @@ img {
 .portfolio-img {
     position: relative;
     overflow: hidden;
+}
+
+.portfolio-img:hover {
     transform: translateY(0%);
 }
 
@@ -443,9 +446,7 @@ img {
     transform: translateY(100%);
 }
 
-.par:hover {
-    transform: translateY(0%);
-}
+
 
 .portfolio-container {
     padding: 32px 16px;
