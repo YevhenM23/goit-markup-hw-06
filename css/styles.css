@@ -2,6 +2,7 @@
    --blue: #4d5ae5;
    --white: #f4f4fd;
    --grey: #FFFFFF;
+    --cloud: #f4f4fd;
 }
 
 
@@ -350,7 +351,7 @@ img {
 
 .social {
     background-color: var(--white);
-    fill: var(--white);
+    fill: var(--cloud);
 }
 
 
