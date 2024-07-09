@@ -101,6 +101,7 @@ img {
 
 .menu-link.current {
   position: relative;
+  color: #404bbf;
 }
 
 .menu-link.current::after {
