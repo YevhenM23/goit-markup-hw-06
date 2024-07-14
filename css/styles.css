@@ -716,11 +716,11 @@ textarea {
   margin-bottom: 8px;
 }
 
-.form-container-input {
+/* .form-container-input {
   display: flex;
   position: relative;
   padding: 0px;
-}
+} */
 
 .form-label {
   display: block;
@@ -751,6 +751,10 @@ textarea {
 
 .form-input:focus .form-icon {
   fill: #4d5ae5;
+}
+
+.form-container-comment {
+  margin-bottom: 16px;
 }
 
 .form-input-com {
