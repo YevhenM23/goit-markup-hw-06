@@ -624,7 +624,6 @@ textarea {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 250ms ease-in-out;
 }
 
 .modal-overlay.is-open {
@@ -746,16 +745,16 @@ textarea {
   border-color: #4d5ae5;
 }
 
+.form-input:focus .form-icon {
+  fill: #4d5ae5;
+}
+
 .form-icon {
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-input:focus .form-icon {
-  fill: #4d5ae5;
 }
 
 .form-container-comment {
@@ -788,7 +787,7 @@ textarea {
   margin-bottom: 24px;
 }
 
-.input-checkbox:checked .privacy-check {
+.input-checkbox:checked .symbol-check {
   background-color: var(--sky);
   border: none;
   fill: var(--white);
