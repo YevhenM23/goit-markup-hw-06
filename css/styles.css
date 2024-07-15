@@ -787,7 +787,7 @@ textarea {
   margin-bottom: 24px;
 }
 
-.input:checked + label > span {
+.input-checkbox:checked + .form-check-text > .symbol-check {
   background-color: var(--sky);
   border: none;
   fill: var(--white);
