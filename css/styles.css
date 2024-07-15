@@ -548,10 +548,10 @@ textarea {
 .footer-form {
   display: flex;
   gap: 24px;
-  /* position: relative;
+  position: relative;
   width: 100%;
   height: 100%;
-  padding-top: 40px; */
+  padding-top: 40px;
 }
 
 .footer-form-par {
@@ -745,7 +745,7 @@ textarea {
   border-color: #4d5ae5;
 }
 
-.form-input:focus .form-icon {
+.form input:focus + svg {
   fill: #4d5ae5;
 }
 
@@ -787,7 +787,7 @@ textarea {
   margin-bottom: 24px;
 }
 
-.input-checkbox:checked .symbol-check {
+.input:checked + label > span {
   background-color: var(--sky);
   border: none;
   fill: var(--white);
@@ -805,6 +805,11 @@ textarea {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
+}
+
+.privacy-check {
+  fill: #404bbf;
 }
 
 .form-check-text {
