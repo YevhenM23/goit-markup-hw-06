@@ -9,9 +9,10 @@ body {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 h1,
@@ -107,11 +108,15 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  padding: 72px 24px 40px 16px;
+  width: 100%;
+  height: 100%;
+  padding: 24px 24px 40px 16px;
   background-color: #fff;
   z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
@@ -122,9 +127,9 @@ a {
 }
 
 .modal-button-menu {
-  position: absolute;
-  top: 24px;
-  right: 24px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 24px;
   width: 24px;
   height: 24px;
   cursor: pointer;
@@ -154,7 +159,7 @@ a {
 }
 
 .menu-item:last-child {
-  margin-bottom: 168px;
+  margin-bottom: 0px;
 }
 
 .menu-link {
@@ -187,6 +192,10 @@ a {
   margin-bottom: 24px;
 }
 
+.menu-item-address:last-child {
+  margin-bottom: 0px;
+}
+
 .contacts-info {
   font-style: 16px;
   font-weight: 400;
@@ -207,7 +216,6 @@ a {
   display: flex;
   justify-content: left;
   gap: 40px;
-  margin: 40px 0px;
 }
 
 .burger {
@@ -221,14 +229,13 @@ a {
   padding: 0;
 }
 
-.burger-icon {
-}
+/* ---------Title and Button Section 1------------ */
 
-/* ---------Title and Button Section1------------ */
 .section {
   padding-top: 72px;
   padding-bottom: 72px;
 }
+
 .tit-a-but {
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -236,11 +243,24 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/office.jpg);
+    url(../images/Dark-bg-mob.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .tit-a-but {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mob2x.jpg);
+  }
 }
 
 .title {
@@ -318,6 +338,7 @@ a {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: left;
 }
 
 /* ---------Team Photo Section3-------------- */
@@ -390,7 +411,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin: 8px;
 }
 
 .icons-punkt {
@@ -488,6 +508,10 @@ a {
   text-align: center;
 }
 
+.footer-info {
+  margin-bottom: 72px;
+}
+
 .logo-web-f {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -514,6 +538,9 @@ a {
   letter-spacing: 0.02em;
   max-width: 264px;
   margin: 0 auto;
+}
+
+.icons {
   margin-bottom: 72px;
 }
 
@@ -530,7 +557,6 @@ a {
   display: flex;
   gap: 16px;
   justify-content: center;
-  margin-bottom: 72px;
 }
 
 .footer-icons-punkt {
@@ -601,6 +627,7 @@ a {
   color: #fff;
   cursor: pointer;
   margin: 0 auto;
+  margin-top: 16px;
 }
 
 .but-fly-icon {
@@ -837,7 +864,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ############################################################################## */
+/* #######################  TAB  ####################################################### */
 
 @media (min-width: 768px) {
   .container {
@@ -848,7 +875,7 @@ a {
     display: flex;
     align-items: center;
     height: 72px;
-    position: relative;
+    justify-content: space-between;
   }
 
   .nav {
@@ -861,6 +888,10 @@ a {
     display: flex;
   }
 
+  .address {
+    font-style: normal;
+  }
+
   .menu {
     display: flex;
     align-items: center;
@@ -869,10 +900,9 @@ a {
   }
 
   .contacts-list {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
   }
 
   .menu-item-address {
@@ -938,6 +968,28 @@ a {
     padding-bottom: 112px;
   }
 
+  .tit-a-but {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-tab.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .tit-a-but {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/Dark-bg-tab2x.jpg);
+    }
+  }
+
   .title {
     font-size: 56px;
     max-width: 496px;
@@ -1001,12 +1053,14 @@ a {
   /* -----------------Footer--------------------------- */
 
   .footer {
-    padding: 96px 164px 96px 108px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .dop-container {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 92px;
   }
 
   .footer-info {
@@ -1029,6 +1083,7 @@ a {
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-left: 24px;
   }
 
   /* -------------------Modal Window------------------------------- */
@@ -1047,7 +1102,7 @@ a {
     max-width: 360px;
   }
 }
-/* #################################################### */
+/* ####################  DESKTOP   ################################ */
 
 @media (min-width: 1158px) {
   .container {
@@ -1070,8 +1125,8 @@ a {
 
   .contacts-list {
     display: flex;
+    align-items: center;
     gap: 40px;
-    padding-top: 14px;
   }
 
   .contacts-info:hover {
@@ -1092,7 +1147,34 @@ a {
     padding-bottom: 188px;
   }
 
+  .tit-a-but {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .tit-a-but {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/office2x.jpg);
+    }
+  }
+
   /* ---------------Section 2--------------------------- */
+
+  .des-sec {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
   .description-list {
     gap: 24px;
@@ -1200,10 +1282,15 @@ a {
 
   .footer-info {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
   .footer-text {
     margin: 0;
+  }
+
+  .icons {
+    margin-bottom: 0;
   }
 
   .footer-icons-item:hover,
@@ -1213,5 +1300,9 @@ a {
 
   .footer-form-container {
     margin-left: 80px;
+  }
+
+  .footer-form-but {
+    margin-top: 0;
   }
 }
